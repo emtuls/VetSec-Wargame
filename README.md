@@ -12,20 +12,21 @@ for purposes other than self learning). It is a work in progress, so please feel
 - [ ] Work on intermediate challenges without tutorials
 
 # How to use?
-This VM can be used by installing [Vagrant](https://www.vagrantup.com/downloads.html) for your Host OS. You will also need to install
-[VirtualBox](https://www.virtualbox.org/) for your Host OS since the VM base is VirtualBox.
+This VM can be used by installing [Vagrant](https://www.vagrantup.com/downloads.html) for your Host OS. You will also need to install [VirtualBox](https://www.virtualbox.org/) for your Host OS since the VM base is VirtualBox.
 
 Then, you can use the Wargame by one of the following ways:
 
 ## Create the Wargame from scratch
-In root folder of VetSec-Wargame run `vagrant up` then `vagrant ssh` when it's done!
+Download the Wargame from Github via git clone or the zip file.
+In root folder of VetSec-Wargame run `vagrant up` then `vagrant ssh` when it's done provisioning to log in.
+The challenges are located in the home directory in the folder called 'challenges'.
 
 ## Run the pre-configured Wargame
 If you would like to save a little time, I provided the Wargame in a [portable .box file on my Google Drive](https://drive.google.com/open?id=1Ed1H1PyxtKQaVGfGpYMqiZqRCq-NqK4i).  
 Simply place the vetsec-wg.box file into a folder and just run `vagrant add vetsec-wg vetsec-wg.box` followed by `vagrant up`
-Then `vagrant ssh` to ssh into the box and begin playing.
+Then `vagrant ssh` to ssh into the box and head to the challenges located in the home directory!
 
-# Other Information
+# Other useful information
 default username: vagrant  
 default password: vagrant
 
