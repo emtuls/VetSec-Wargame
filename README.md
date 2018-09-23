@@ -14,12 +14,12 @@ for purposes other than self learning). It is a work in progress, so please feel
 # How to use?
 ## Prerequisite software/knowledge
 1. [Vagrant](https://www.vagrantup.com/downloads.html)
-..* You will need to install the correct version for your Host OS. This is a VM manager that makes it easy to spin up VM's.
+  * You will need to install the correct version for your Host OS. This is a VM manager that makes it easy to spin up VM's.
 2. [VirtualBox](https://www.virtualbox.org/) 
-..* You will need to install the correct version for your Host OS since the Wargame VM base is VirtualBox.
+  * You will need to install the correct version for your Host OS since the Wargame VM base is VirtualBox.
 3. Basic Command Line knowledge (Both your Host OS and Linux)
-..* In Linux, you will need to be able to list files/directories, change directories, execute/run a script/tool
-..* In your Host OS, you will only need to know how to run `vagrant up` and `vagrant ssh` from the Wargame root folder.
+  * In Linux, you will need to be able to list files/directories, change directories, execute/run a script/tool
+  * In your Host OS, you will only need to know how to run `vagrant up` and `vagrant ssh` from the Wargame root folder.
 
 If any of this seems challenging to you and you might need a little help, I recommend using a little google for now, until my tutorial is complete.
 
