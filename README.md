@@ -21,11 +21,18 @@ Then, you can use the Wargame by one of the following ways:
 Put the Vagrantfile and install_software.sh script into a folder and run `vagrant up` to spin up the VM, then run `vagrant ssh` to log 
 into the VM and access the tutorials/challenges.
 
+default username: vagrant
+default password: vagrant
+
 ## Run the pre-configured Wargame
 If you would like to save a little time, I provided the Wargame in a portable .box file.
 Simply place the vetsec-wg.box file into a folder and just run `vagrant add vetsec-wg vetsec-wg.box` followed by `vagrant up`
 Then `vagrant ssh` to ssh into the box and begin playing.
 
+default username: vagrant
+default password: vagrant
+
+# Other Information
 Please see my [blog post about the creation of this VM](https://veteransec.com/2018/09/22/creating-vetsecs-wargame-pt-1/) for other information about the VM.
 
 # Contribute
