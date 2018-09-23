@@ -15,9 +15,6 @@ for purposes other than self learning). It is a work in progress, so please feel
 This VM can be used by installing [Vagrant](https://www.vagrantup.com/downloads.html) for your Host OS. You will also need to install
 [VirtualBox](https://www.virtualbox.org/) for your Host OS since the VM base is VirtualBox.
 
-default username: vagrant  
-default password: vagrant
-
 Then, you can use the Wargame by one of the following ways:
 
 ## Create the Wargame from scratch
@@ -30,6 +27,9 @@ Simply place the vetsec-wg.box file into a folder and just run `vagrant add vets
 Then `vagrant ssh` to ssh into the box and begin playing.
 
 # Other Information
+default username: vagrant  
+default password: vagrant
+
 Please see my [blog post about the creation of this VM](https://veteransec.com/2018/09/22/creating-vetsecs-wargame-pt-1/) for other information about the VM.
 
 # Contribute
