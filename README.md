@@ -32,6 +32,10 @@ default password: vagrant
 
 Please see my [blog post about the creation of this VM](https://veteransec.com/2018/09/22/creating-vetsecs-wargame-pt-1/) for other information about the VM.
 
+## Common issues and fixes
+### There is already a VM with this name created
+If you ran `vagrant up` and tried to run this installation again in another folder on the same computer without running `vagrant destroy`, the old vm is lingering with the same name. To remove it, open virtual box and delete the old box, then you should be able to `vagrant up` in the new location.
+
 # Contribute
 If you would like to help contribute, please feel free to shoot me a message on any of my methods of communication and we can discuss things in need.
 
