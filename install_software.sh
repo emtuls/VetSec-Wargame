@@ -13,7 +13,7 @@ echo "Done moving folders."
 install_tools(){
 echo "Installing tools..."
 
-sudo apt-get -y install gcc gdb
+sudo apt-get -y install gcc gdb gcc-multilib
 git clone https://github.com/longld/peda.git ~/software/peda
 git clone https://github.com/radare/radare2.git ~/software/radare2
 
