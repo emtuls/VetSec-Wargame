@@ -18,8 +18,7 @@ This VM can be used by installing [Vagrant](https://www.vagrantup.com/downloads.
 Then, you can use the Wargame by one of the following ways:
 
 ## Create the Wargame from scratch
-Put the Vagrantfile and install_software.sh script into a folder and run `vagrant up` to spin up the VM, then run `vagrant ssh` to log 
-into the VM and access the tutorials/challenges.
+In root folder of VetSec-Wargame run `vagrant up` then `vagrant ssh` when it's done!
 
 ## Run the pre-configured Wargame
 If you would like to save a little time, I provided the Wargame in a [portable .box file on my Google Drive](https://drive.google.com/open?id=1Ed1H1PyxtKQaVGfGpYMqiZqRCq-NqK4i).  
