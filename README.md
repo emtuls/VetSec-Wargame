@@ -22,7 +22,7 @@ Put the Vagrantfile and install_software.sh script into a folder and run `vagran
 into the VM and access the tutorials/challenges.
 
 ## Run the pre-configured Wargame
-If you would like to save a little time, I provided the Wargame in a portable .box file.
+If you would like to save a little time, I provided the Wargame in a [portable .box file on my Google Drive](https://drive.google.com/open?id=1Ed1H1PyxtKQaVGfGpYMqiZqRCq-NqK4i).  
 Simply place the vetsec-wg.box file into a folder and just run `vagrant add vetsec-wg vetsec-wg.box` followed by `vagrant up`
 Then `vagrant ssh` to ssh into the box and begin playing.
 
