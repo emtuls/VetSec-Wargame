@@ -20,6 +20,6 @@ Vagrant.configure('2') do |config|
 
     config.vm.provision :shell do |shell|
         shell.privileged = false
-        shell.inline = "bash install_software.sh"
+        shell.inline = "bash /vagrant/install_software.sh"
     end
 end
