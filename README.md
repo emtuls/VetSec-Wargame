@@ -31,16 +31,23 @@ TODO...
 ### Create the Wargame from scratch
 Download the Wargame from Github via git clone or the zip file.
 In a terminal/command prompt, navigate to the root folder of the Wargame and run `vagrant up` and then `vagrant ssh` when it is done provisioning to log in.
-The challenges are located in the home directory in the folder called 'challenges'.
-To log out, just type `logout` while in the VM.
-Once outside of the VM, while still in the terminal/command prompt, run `vagrant halt` to shut down the VM or `vagrant destroy` to remove it entirely.
 
 ### Run the pre-configured Wargame
 If you would like to save a little time, I provided the Wargame in a [portable .box file on my Google Drive](https://drive.google.com/open?id=1Ed1H1PyxtKQaVGfGpYMqiZqRCq-NqK4i).  
 Simply place the vetsec-wg.box file into a folder and just run `vagrant add vetsec-wg vetsec-wg.box` followed by `vagrant up`
 Then from a terminal/command prompt while inside the directory of the box, run `vagrant ssh` to ssh into the box and head to the challenges located in the home directory!
 
+
+### Play the challenges
+The challenges are located in the home directory in the folder called 'challenges'.
+Please read the README for each challenge.
+For now, there is no tutorial, but it is in the works!
+
 # Other useful information
+## Logging out and tearing down
+To log out, just type `logout` while in the VM.
+Once outside of the VM, while still in the terminal/command prompt, run `vagrant halt` to shut down the VM or `vagrant destroy` to remove it entirely.
+
 default username: vagrant  
 default password: vagrant
 
