@@ -4,8 +4,8 @@
 move_folders(){
 echo "Moving folders to home directory..."
 
-mv challenges ~/
-mv scripts ~/
+cp -r /vagrant/challenges ~/
+cp -r /vagrant/scripts ~/
 
 echo "Done moving folders."
 }
@@ -17,7 +17,7 @@ sudo apt-get -y install gcc gdb
 git clone https://github.com/longld/peda.git ~/software/peda
 git clone https://github.com/radare/radare2.git ~/software/radare2
 
-for directory in "~/software"/*; do
+for directory in "$PWD/software"/*; do
     if [ -e "$directory"/configure ]; then
         (cd -- "$directory" && sh configure)
         (cd -- "$directory" && make)
@@ -25,14 +25,13 @@ for directory in "~/software"/*; do
     fi
 done
 
-echo "source $software/peda/peda.py" >> ~/.gdbinit
+echo "source ~/software/peda/peda.py" >> ~/.gdbinit
 echo "set number 
 set tabstop=4 
 set expandtab" >> ~/.vimrc
 
 echo "Done installing tools."
 }
-
 
 setup_challenges(){
 echo "Setting up challenges..."
