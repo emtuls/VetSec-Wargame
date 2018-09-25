@@ -15,7 +15,7 @@ for purposes other than self learning). It is a work in progress, so please feel
 ## Prerequisite software/knowledge
 1. [Vagrant](https://www.vagrantup.com/downloads.html)
   * You will need to install the correct version for your Host OS. This is a VM manager that makes it easy to spin up VM's.
-2. [VirtualBox](https://www.virtualbox.org/) 
+2. [VirtualBox](https://www.virtualbox.org/) *Best if installed directly from virtualbox website, not linux repo*
   * You will need to install the correct version for your Host OS since the Wargame VM base is VirtualBox.
 3. Basic Command Line knowledge (Both your Host OS and Linux)
   * In Linux, you will need to be able to list files/directories, change directories, execute/run a script/tool
@@ -37,7 +37,6 @@ If you would like to save a little time, I provided the Wargame in a [portable .
 Simply place the vetsec-wg.box file into a folder and just run `vagrant add vetsec-wg vetsec-wg.box` followed by `vagrant up`
 Then from a terminal/command prompt while inside the directory of the box, run `vagrant ssh` to ssh into the box and head to the challenges located in the home directory!
 
-
 ### Play the challenges
 The challenges are located in the home directory in the folder called 'challenges'.
 Please read the README for each challenge.
@@ -56,6 +55,9 @@ Please see my [blog post about the creation of this VM](https://veteransec.com/2
 ## Common issues and fixes
 ### There is already a VM with this name created
 If you ran `vagrant up` and tried to run this installation again in another folder on the same computer without running `vagrant destroy`, the old vm is lingering with the same name. To remove it, open virtual box and delete the old box, then you should be able to `vagrant up` in the new location.
+
+### VBoxManage Issues
+This is likely because you tried to install virtualbox from the apt repositories, which can cause issues. Please follow the instructions located [here](https://www.virtualbox.org/wiki/Downloads) for your particular OS.
 
 # Contribute
 If you would like to help contribute, please feel free to shoot me a message on any of my methods of communication and we can discuss things in need.
