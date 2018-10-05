@@ -15,7 +15,9 @@ echo "Installing tools..."
 
 sudo apt-get -y install gcc gdb gcc-multilib
 git clone https://github.com/longld/peda.git ~/software/peda
-git clone https://github.com/radare/radare2.git ~/software/radare2
+#git clone https://github.com/radare/radare2.git ~/software/radare2
+
+
 
 for directory in "$PWD/software"/*; do
     if [ -e "$directory"/configure ]; then
@@ -26,9 +28,7 @@ for directory in "$PWD/software"/*; do
 done
 
 echo "source ~/software/peda/peda.py" >> ~/.gdbinit
-echo "set number 
-set tabstop=4 
-set expandtab" >> ~/.vimrc
+echo "set number autoindent tabstop=4 noexpandtab shiftwidth=4" >> ~/.vimrc
 
 echo "Done installing tools."
 }
