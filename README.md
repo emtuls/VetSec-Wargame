@@ -10,6 +10,7 @@ for purposes other than self learning). It is a work in progress, so please feel
 - [x] Set up initial VM with preinstalled tools with [tutorial](https://veteransec.com/2018/09/22/creating-vetsecs-wargame-pt-1/)
 - [ ] Create initial challenges with tutorials
 - [ ] Work on intermediate challenges without tutorials
+- [ ] Create intro to linux?
 
 # How to use?
 ## Prerequisite software/knowledge
