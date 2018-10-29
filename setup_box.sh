@@ -46,9 +46,9 @@ echo "Done setting up challenges."
 }
 
 
-###
-# Main body of script starts here
-###
+##################################
+# Main body of script starts here#
+##################################
 move_folders
 install_tools
 setup_challenges
