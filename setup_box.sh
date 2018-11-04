@@ -4,8 +4,10 @@
 move_folders(){
 echo "Moving folders to home directory..."
 
+#TODO Make this dynamic
 cp -r /vagrant/challenges ~/
 cp -r /vagrant/scripts ~/
+cp -r /vagrant/tutorials ~/
 
 echo "Done moving folders."
 }
